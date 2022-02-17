@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  img {
+    width: 300px;
+}
+
+.banner {
+    background-color: black;
+    color: orange;
+    height: 200px;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    line-height: 150px;
+    vertical-align: middle;
+  }
+
+
+
+.products {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.like {
+    background-color: orange;
+    color: white;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+
+.product {
+    display: inline-block;
+    position: relative;
+}
+
+.img-hidden {
+    position: absolute;
+    right: 0px;
+    visibility: hidden;
+}
+
+.product:hover .img-hidden {
+    visibility: visible;
+  }
+
+.badge-discount {
+    background-color: black;
+    color: orange;
+    padding: 4px;
+    font-size: 0.65rem;
+    font-weight: 800;
+    position: absolute;
+    bottom: 75px;
+    left: 0;
+
+}
+
+.badge-category {
+    background-color: green;
+    color: white;
+    padding: 4px;
+    font-size: 0.65rem;
+    font-weight: 800;
+    position: absolute;
+    bottom: 75px;
+    left: 35px;    
+}
+
+.special-badge {
+    background-color: green;
+    color: white;
+    padding: 4px;
+    font-size: 0.65rem;
+    font-weight: 800;
+    position: absolute;
+    bottom: 75px;
+    left: 0px;        
+}
+
+
+
+.description {
+    text-align: left;  
+    font-size: 12px;
+}
+
+.product-name {
+    text-align: left;
+    font-weight: 800;
+}
+
+.discount-price {
+    text-align: left;
+    color: red;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.price {
+    color: black;
+    text-decoration:line-through;
+    font-weight: 200;
+}
+
+footer {
+    margin-top: 10px;
+    color: orange;
+    text-align: center;
+    padding: 2rem;
+    background-color: black;
+  }
