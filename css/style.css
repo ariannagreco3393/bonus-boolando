@@ -28,6 +28,7 @@
 
 .like {
     background-color: orange;
+    border: 1px solid black;
     color: white;
     width: 40px;
     height: 40px;
@@ -75,6 +76,19 @@
     position: absolute;
     bottom: 75px;
     left: 35px;    
+}
+
+button {
+    background-color: orange;
+    border: none;
+    color: black;
+    padding: 8px;
+    font-size: 0.65rem;
+    font-weight: 800;
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    z-index: 1; 
 }
 
 .special-badge {
